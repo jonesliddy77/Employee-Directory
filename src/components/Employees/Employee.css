@@ -1,0 +1,72 @@
+/* Search bar*/
+.searchBar-container{
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.searchBar{
+    width: 100%;
+    text-align: center;
+}
+.filterSort-container{
+    width: 100%;
+    display: flex;
+}
+.filter-container,.sort-container{
+    width: 50%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.filter-container h1{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+}
+.filter{
+    font-size: 1.5rem;
+    width:33%;
+}
+.noFilter{
+    font-size: 1.5rem;
+    width: 33%;
+}
+.sort-container h1{
+    text-align: center;
+    font-size: 2rem;
+    width: 100%;
+}
+.sort-container button{
+    font-size: 1.5rem;
+    width: 100%;
+}
+/* Top Table Nav*/
+.tableTop-container{
+    text-align: center;
+    background: rgba(7, 7, 7, 0.562);
+}
+.tableTopWords{
+    font-size: 1.5rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.tableTopWords li{
+  width: 20%;
+}
+/* Emmployees Table */
+.employee-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    background: rgba(77, 77, 77, 0.63);
+    margin: 10px;
+}
+.employee-container div{
+    width: 20%;
+    padding: 10px;
+}
